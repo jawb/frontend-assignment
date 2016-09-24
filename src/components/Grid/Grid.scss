@@ -1,0 +1,26 @@
+.grid {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #000;
+
+    &:last-child {
+        border-bottom: 1px solid #000;
+    }
+}
+
+.square {
+    flex: 1;
+    display: flex;
+    border-left: 1px solid #000;
+
+    &:last-child {
+        border-right: 1px solid #000;
+    }
+}
